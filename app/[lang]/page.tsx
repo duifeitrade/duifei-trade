@@ -45,6 +45,14 @@ export default async function HomePage({
           </div>
         </section>
 
+        <section className="max-w-6xl mx-auto px-6 pb-4">
+          <img
+            src="/images/hero.png"
+            alt="Duifei Trade facility"
+            className="w-full rounded-2xl object-cover max-h-[480px]"
+          />
+        </section>
+
         <section className="border-t border-gray-100">
           <div className="max-w-6xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-3 gap-12">
             <div>

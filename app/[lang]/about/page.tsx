@@ -12,6 +12,11 @@ export default async function AboutPage({
   const dict = await getDictionary(lang);
   const a = dict.about;
 
+  const factoryImages = Array.from(
+    { length: 7 },
+    (_, i) => `/images/factory-${i + 1}.png`
+  );
+
   return (
     <div className="min-h-screen flex flex-col bg-white text-gray-900">
       <Header lang={lang} dict={dict} />
@@ -29,7 +34,7 @@ export default async function AboutPage({
         </section>
 
         <section className="border-t border-gray-100">
-          <div className="max-w-6xl mx-auto px-6 py-16 max-w-2xl">
+          <div className="max-w-2xl mx-auto px-6 py-16">
             {a.paragraphs.map((para, i) => (
               <p
                 key={i}
@@ -38,6 +43,32 @@ export default async function AboutPage({
                 {para}
               </p>
             ))}
+          </div>
+        </section>
+
+        <section className="border-t border-gray-100 bg-gray-50">
+          <div className="max-w-6xl mx-auto px-6 py-16">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+              {factoryImages.map((src) => (
+                <div
+                  key={src}
+                  className="aspect-video overflow-hidden rounded-lg bg-white"
+                >
+                  <img
+                    src={src}
+                    alt=""
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
+              ))}
+              <div className="aspect-video overflow-hidden rounded-lg bg-white flex items-center justify-center p-4">
+                <img
+                  src="/images/certificate.png"
+                  alt="GMP Certificate"
+                  className="max-h-full max-w-full object-contain"
+                />
+              </div>
+            </div>
           </div>
         </section>
       </main>
