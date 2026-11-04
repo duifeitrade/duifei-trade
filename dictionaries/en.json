@@ -1,0 +1,72 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "oem": "OEM / ODM",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "Global Health · OEM / ODM",
+    "title1": "Science-backed health products,",
+    "title2": "manufactured with precision.",
+    "subtitle": "From traditional Chinese medicine to modern cosmeceuticals — we partner with brands worldwide to deliver certified, factory-direct OEM and ODM solutions.",
+    "cta1": "Explore Products",
+    "cta2": "OEM Services"
+  },
+  "stats": {
+    "years": "10+",
+    "yearsLabel": "Years of manufacturing",
+    "gmp": "GMP",
+    "gmpLabel": "Certified production lines",
+    "countries": "30+",
+    "countriesLabel": "Countries served"
+  },
+  "products": {
+    "eyebrow": "Products",
+    "title": "A portfolio built around health.",
+    "subtitle": "Three core categories, each manufactured under certified quality systems.",
+    "categories": [
+      { "name": "Health Supplements", "desc": "Capsules, tablets, powders and softgels — from single ingredients to formulated blends." },
+      { "name": "Traditional Chinese Medicine", "desc": "Herbal extracts, granules and finished TCM products produced to pharmacopoeia standards." },
+      { "name": "Cosmeceuticals", "desc": "Serums, creams and functional skincare backed by active-ingredient efficacy data." }
+    ]
+  },
+  "oem": {
+    "eyebrow": "OEM / ODM",
+    "title": "From formula to shelf.",
+    "subtitle": "One partner across development, production, labeling and export.",
+    "services": [
+      { "name": "Formula Development", "desc": "Custom formulations tailored to your market and regulatory target." },
+      { "name": "GMP Production", "desc": "Certified facilities for tablets, capsules, granules, liquids and topicals." },
+      { "name": "Private Label", "desc": "Your brand, your packaging — we handle artwork approval and sampling." },
+      { "name": "Export Logistics", "desc": "Documentation, consolidation and shipping to 30+ countries." }
+    ]
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "A trade partner you can build on.",
+    "subtitle": "Duifei Trade connects certified Chinese manufacturers with brands and distributors worldwide.",
+    "paragraphs": [
+      "We focus on health products, traditional Chinese medicine and cosmeceuticals — categories where manufacturing quality directly determines brand trust.",
+      "Our team verifies factories, audits production lines and coordinates every step from sample to shipment, so our partners can focus on their market."
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Start a conversation.",
+    "subtitle": "Tell us what you're building. We'll respond within one business day.",
+    "person": "Contact Person",
+    "personValue": "Liu Yadi",
+    "email": "Email",
+    "emailValue": "630346138@qq.com",
+    "phone": "Phone",
+    "phoneValue": "+86 190 7522 6350",
+    "address": "Address",
+    "addressValue": "No.19 Jubao Road, Tangtang Town, Fogang County, Qingyuan, Guangdong, China"
+  },
+  "footer": {
+    "copyright": "© {year} Duifei Trade Co., Ltd. All rights reserved.",
+    "domain": "df.cnhaojiu.com"
+  }
+}
