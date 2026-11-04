@@ -2,60 +2,60 @@
   "nav": {
     "home": "Home",
     "products": "Products",
-    "oem": "OEM / ODM",
+    "oem": "Services",
     "about": "About",
     "contact": "Contact"
   },
   "hero": {
-    "eyebrow": "Chinese Liquor · Export & OEM",
-    "title1": "Authentic Chinese liquor,",
-    "title2": "crafted for global markets.",
-    "subtitle": "From Cantonese-aroma baijiu to herbal infused liquor and fruit rice wine — we partner with brands worldwide to deliver factory-direct OEM and ODM solutions.",
-    "cta1": "Explore Products",
-    "cta2": "OEM Services"
+    "eyebrow": "Guangdong Duifei Trading · Africa Market",
+    "title1": "Guangdong to Africa,",
+    "title2": "made simple.",
+    "subtitle": "A comprehensive trading company based in Qingyuan, Guangdong — connecting Chinese manufacturers with African buyers across liquor, daily goods, new energy vehicles, hardware, agricultural products and more.",
+    "cta1": "Our Products",
+    "cta2": "Our Services"
   },
   "stats": {
-    "years": "10+",
-    "yearsLabel": "Years of brewing",
-    "gmp": "SC",
-    "gmpLabel": "Licensed production lines",
-    "countries": "30+",
-    "countriesLabel": "Export destinations"
+    "years": "2026",
+    "yearsLabel": "Founded in",
+    "gmp": "5M RMB",
+    "gmpLabel": "Registered capital",
+    "countries": "Africa",
+    "countriesLabel": "Core market"
   },
   "products": {
     "eyebrow": "Products",
-    "title": "Three lines, one standard.",
-    "subtitle": "Baijiu, herbal liquor and fruit rice wine — produced in our own Guangdong facility.",
+    "title": "What we export.",
+    "subtitle": "From Guangdong factories to African markets — one-stop sourcing.",
     "categories": [
-      { "name": "Cantonese Baijiu", "desc": "Light and mellow 50%vol original-pulp baijiu, including Dao Jiu Weng and Jiang Shang Yue series." },
-      { "name": "Herbal Infused Liquor", "desc": "36%vol lu-jiu brewed with food-medicine homologous ingredients under the Qing Ye Wu Chen brand." },
-      { "name": "Fruit & Rice Wine", "desc": "26%vol low-alcohol peach rice wine Mo Xiang Wang, presented in gift wooden boxes." }
+      { "name": "Chinese Liquor", "desc": "Cantonese baijiu (Dao Jiu Weng, Jiang Shang Yue), herbal infused liquor (Qing Ye Wu Chen) and fruit rice wine (Mo Xiang Wang)." },
+      { "name": "Daily Goods & Hardware", "desc": "Appliances, clothing, hardware tools, safety supplies and general merchandise sourced from Guangdong factories." },
+      { "name": "New Energy Vehicles", "desc": "Electric vehicles, e-bikes, auto parts, batteries and battery components for the African market." }
     ]
   },
   "oem": {
-    "eyebrow": "OEM / ODM",
-    "title": "From recipe to shelf.",
-    "subtitle": "Full-service private label for liquor brands worldwide.",
+    "eyebrow": "Services",
+    "title": "More than trading.",
+    "subtitle": "Full-chain services behind every shipment.",
     "services": [
-      { "name": "Recipe Development", "desc": "Custom blending, aging and flavor profiles tailored to your target market." },
-      { "name": "Production", "desc": "Licensed brewing, bottling and labeling lines in Qingyuan, Guangdong." },
-      { "name": "Private Label", "desc": "Bottle shapes, glass color, box design — from sampling to mass production." },
-      { "name": "Export Logistics", "desc": "Documentation, consolidation and shipping to 30+ countries." }
+      { "name": "Import & Export Agency", "desc": "Customs declaration, documentation and international freight forwarding for African buyers." },
+      { "name": "Commodity Wholesale", "desc": "Daily goods, appliances, hardware, safety supplies, packaged food and agricultural products." },
+      { "name": "Sourcing & QC", "desc": "Factory verification, sample coordination and pre-shipment inspection in Guangdong." },
+      { "name": "Internet Sales", "desc": "Online-offline integrated supply chain, supporting both container orders and small-batch e-commerce." }
     ]
   },
   "about": {
     "eyebrow": "About",
-    "title": "Brewed in Guangdong, served worldwide.",
-    "subtitle": "Duifei Trade is the export arm of Qingyuan Haojiu Pharmaceutical Co., Ltd. and Guangzhou Hejiu Liquor Co., Ltd.",
+    "title": "Guangdong Duifei Trading Co., Ltd.",
+    "subtitle": "A modern trading company with domestic and international operations.",
     "paragraphs": [
-      "Based in Fogang, Qingyuan — the heart of Guangdong's liquor belt — we operate licensed brewing facilities producing Cantonese-style baijiu, herbal infused liquor and fruit rice wine.",
-      "Our brands include Dao Jiu Weng, Jiang Shang Yue, Qing Ye Wu Chen and Mo Xiang Wang. We also offer full OEM/ODM services for overseas distributors looking to bring authentic Chinese liquor to their markets."
+      "Registered in July 2026 with 5 million RMB capital, Guangdong Duifei Trading Co., Ltd. is located at No.19 Jubao Road, Tangtang Town, Fogang County, Qingyuan, Guangdong. We hold Unified Social Credit Code 91441821MAKJP1EU4A.",
+      "We are a 'dual-engine' trading company: on the international side, we provide import/export agency and international freight forwarding to open trade channels with Africa; on the domestic side, our extensive supply network covers daily goods, appliances, hardware, agricultural products and TCM herbs, backed by technical consulting, training and park management services."
     ]
   },
   "contact": {
     "eyebrow": "Contact",
-    "title": "Start a conversation.",
-    "subtitle": "Tell us what you're looking for. We'll respond within one business day.",
+    "title": "Let's talk business.",
+    "subtitle": "Tell us what you need. We'll respond within one business day.",
     "person": "Contact Person",
     "personValue": "Liu Yadi",
     "email": "Email",
@@ -63,10 +63,10 @@
     "phone": "Phone",
     "phoneValue": "+86 190 7522 6350",
     "address": "Address",
-    "addressValue": "No.19 Jubao Road, Tangtang Town, Fogang County, Qingyuan, Guangdong, China"
+    "addressValue": "Room 501, Building 1, No.19 Jubao Road, Tangtang Town, Fogang County, Qingyuan, Guangdong, China"
   },
   "footer": {
-    "copyright": "© {year} Duifei Trade Co., Ltd. All rights reserved.",
+    "copyright": "© {year} Guangdong Duifei Trading Co., Ltd. All rights reserved.",
     "domain": "df.cnhaojiu.com"
   }
 }
