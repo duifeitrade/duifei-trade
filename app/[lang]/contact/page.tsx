@@ -37,23 +37,37 @@ export default async function ContactPage({
 
         <section className="border-t border-gray-100">
           <div className="max-w-6xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-3 gap-10">
-            {items.map((item) => (
-              <div key={item.label}>
-                <p className="text-xs text-gray-400 uppercase tracking-widest">
-                  {item.label}
-                </p>
-                {item.href ? (
-                  <a
-                    href={item.href}
-                    className="mt-2 block text-base text-gray-900 hover:text-gray-500 transition-colors"
-                  >
-                    {item.value}
-                  </a>
-                ) : (
-                  <p className="mt-2 text-base text-gray-900">{item.value}</p>
-                )}
+            <div className="md:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-10">
+              {items.map((item) => (
+                <div key={item.label}>
+                  <p className="text-xs text-gray-400 uppercase tracking-widest">
+                    {item.label}
+                  </p>
+                  {item.href ? (
+                    <a
+                      href={item.href}
+                      className="mt-2 block text-base text-gray-900 hover:text-gray-500 transition-colors"
+                    >
+                      {item.value}
+                    </a>
+                  ) : (
+                    <p className="mt-2 text-base text-gray-900">{item.value}</p>
+                  )}
+                </div>
+              ))}
+            </div>
+            <div className="flex flex-col items-center justify-start">
+              <div className="w-48 h-48 border border-gray-200 rounded-xl p-3 bg-white">
+                <img
+                  src="/images/wechat-qr.png"
+                  alt="WeChat QR"
+                  className="w-full h-full object-contain"
+                />
               </div>
-            ))}
+              <p className="mt-3 text-xs text-gray-400 tracking-widest">
+                {lang === "zh" ? "微信扫码联系" : "Scan to chat on WeChat"}
+              </p>
+            </div>
           </div>
         </section>
       </main>
