@@ -15,7 +15,8 @@ export default async function ContactPage({
   const items = [
     { label: c.person, value: c.personValue, href: undefined },
     { label: c.email, value: c.emailValue, href: `mailto:${c.emailValue}` },
-    { label: c.phone, value: c.phoneValue, href: `tel:${c.phoneValue.replace(/\s/g, "")}` },
+    { label: c.phone, value: c.phoneValue, href: `tel:${c.phoneValue.replace(/[\s-]/g, "")}` },
+    { label: c.phone2, value: c.phone2Value, href: `tel:${c.phone2Value.replace(/[\s-]/g, "")}` },
     { label: c.address, value: c.addressValue, href: undefined },
   ];
 

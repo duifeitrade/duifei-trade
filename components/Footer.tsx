@@ -24,9 +24,14 @@ export default function Footer({
             <p className="text-xs text-gray-400 uppercase tracking-widest mb-2">
               {c.phone}
             </p>
-            <a href={`tel:${c.phoneValue.replace(/\s/g, "")}`} className="text-gray-700 hover:text-gray-900">
+            <a href={`tel:${c.phoneValue.replace(/[\s-]/g, "")}`} className="text-gray-700 hover:text-gray-900">
               {c.phoneValue}
             </a>
+            <p className="mt-1">
+              <a href={`tel:${c.phone2Value.replace(/[\s-]/g, "")}`} className="text-gray-700 hover:text-gray-900">
+                {c.phone2Value}
+              </a>
+            </p>
             <p className="mt-2">
               <a href={`mailto:${c.emailValue}`} className="text-gray-700 hover:text-gray-900">
                 {c.emailValue}

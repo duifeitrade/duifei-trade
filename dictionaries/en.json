@@ -60,8 +60,10 @@
     "personValue": "Liu Yadi",
     "email": "Email",
     "emailValue": "630346138@qq.com",
-    "phone": "Phone",
+    "phone": "Mobile",
     "phoneValue": "+86 190 7522 6350",
+    "phone2": "Landline",
+    "phone2Value": "+86-0763-4889262",
     "address": "Address",
     "addressValue": "Room 501, Building 1, No.19 Jubao Road, Tangtang Town, Fogang County, Qingyuan, Guangdong, China"
   },
