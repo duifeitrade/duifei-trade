@@ -47,7 +47,7 @@ export default async function HomePage({
 
         <section className="max-w-6xl mx-auto px-6 pb-4">
           <img
-            src="/images/hero.png"
+            src="/images/hero.jpg"
             alt="Duifei Trade facility"
             className="w-full rounded-2xl object-cover max-h-[480px]"
           />

@@ -54,6 +54,8 @@ export type Dictionary = {
     emailValue: string;
     phone: string;
     phoneValue: string;
+    phone2: string;
+    phone2Value: string;
     address: string;
     addressValue: string;
   };

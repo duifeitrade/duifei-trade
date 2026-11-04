@@ -14,7 +14,7 @@ export default async function AboutPage({
 
   const factoryImages = Array.from(
     { length: 7 },
-    (_, i) => `/images/factory-${i + 1}.png`
+    (_, i) => `/images/factory-${i + 1}.jpg`
   );
 
   return (
@@ -63,7 +63,7 @@ export default async function AboutPage({
               ))}
               <div className="aspect-video overflow-hidden rounded-lg bg-white flex items-center justify-center p-4">
                 <img
-                  src="/images/certificate.png"
+                  src="/images/certificate.jpg"
                   alt="GMP Certificate"
                   className="max-h-full max-w-full object-contain"
                 />
