@@ -7,55 +7,55 @@
     "contact": "Contact"
   },
   "hero": {
-    "eyebrow": "Global Health · OEM / ODM",
-    "title1": "Science-backed health products,",
-    "title2": "manufactured with precision.",
-    "subtitle": "From traditional Chinese medicine to modern cosmeceuticals — we partner with brands worldwide to deliver certified, factory-direct OEM and ODM solutions.",
+    "eyebrow": "Chinese Liquor · Export & OEM",
+    "title1": "Authentic Chinese liquor,",
+    "title2": "crafted for global markets.",
+    "subtitle": "From Cantonese-aroma baijiu to herbal infused liquor and fruit rice wine — we partner with brands worldwide to deliver factory-direct OEM and ODM solutions.",
     "cta1": "Explore Products",
     "cta2": "OEM Services"
   },
   "stats": {
     "years": "10+",
-    "yearsLabel": "Years of manufacturing",
-    "gmp": "GMP",
-    "gmpLabel": "Certified production lines",
+    "yearsLabel": "Years of brewing",
+    "gmp": "SC",
+    "gmpLabel": "Licensed production lines",
     "countries": "30+",
-    "countriesLabel": "Countries served"
+    "countriesLabel": "Export destinations"
   },
   "products": {
     "eyebrow": "Products",
-    "title": "A portfolio built around health.",
-    "subtitle": "Three core categories, each manufactured under certified quality systems.",
+    "title": "Three lines, one standard.",
+    "subtitle": "Baijiu, herbal liquor and fruit rice wine — produced in our own Guangdong facility.",
     "categories": [
-      { "name": "Health Supplements", "desc": "Capsules, tablets, powders and softgels — from single ingredients to formulated blends." },
-      { "name": "Traditional Chinese Medicine", "desc": "Herbal extracts, granules and finished TCM products produced to pharmacopoeia standards." },
-      { "name": "Cosmeceuticals", "desc": "Serums, creams and functional skincare backed by active-ingredient efficacy data." }
+      { "name": "Cantonese Baijiu", "desc": "Light and mellow 50%vol original-pulp baijiu, including Dao Jiu Weng and Jiang Shang Yue series." },
+      { "name": "Herbal Infused Liquor", "desc": "36%vol lu-jiu brewed with food-medicine homologous ingredients under the Qing Ye Wu Chen brand." },
+      { "name": "Fruit & Rice Wine", "desc": "26%vol low-alcohol peach rice wine Mo Xiang Wang, presented in gift wooden boxes." }
     ]
   },
   "oem": {
     "eyebrow": "OEM / ODM",
-    "title": "From formula to shelf.",
-    "subtitle": "One partner across development, production, labeling and export.",
+    "title": "From recipe to shelf.",
+    "subtitle": "Full-service private label for liquor brands worldwide.",
     "services": [
-      { "name": "Formula Development", "desc": "Custom formulations tailored to your market and regulatory target." },
-      { "name": "GMP Production", "desc": "Certified facilities for tablets, capsules, granules, liquids and topicals." },
-      { "name": "Private Label", "desc": "Your brand, your packaging — we handle artwork approval and sampling." },
+      { "name": "Recipe Development", "desc": "Custom blending, aging and flavor profiles tailored to your target market." },
+      { "name": "Production", "desc": "Licensed brewing, bottling and labeling lines in Qingyuan, Guangdong." },
+      { "name": "Private Label", "desc": "Bottle shapes, glass color, box design — from sampling to mass production." },
       { "name": "Export Logistics", "desc": "Documentation, consolidation and shipping to 30+ countries." }
     ]
   },
   "about": {
     "eyebrow": "About",
-    "title": "A trade partner you can build on.",
-    "subtitle": "Duifei Trade connects certified Chinese manufacturers with brands and distributors worldwide.",
+    "title": "Brewed in Guangdong, served worldwide.",
+    "subtitle": "Duifei Trade is the export arm of Qingyuan Haojiu Pharmaceutical Co., Ltd. and Guangzhou Hejiu Liquor Co., Ltd.",
     "paragraphs": [
-      "We focus on health products, traditional Chinese medicine and cosmeceuticals — categories where manufacturing quality directly determines brand trust.",
-      "Our team verifies factories, audits production lines and coordinates every step from sample to shipment, so our partners can focus on their market."
+      "Based in Fogang, Qingyuan — the heart of Guangdong's liquor belt — we operate licensed brewing facilities producing Cantonese-style baijiu, herbal infused liquor and fruit rice wine.",
+      "Our brands include Dao Jiu Weng, Jiang Shang Yue, Qing Ye Wu Chen and Mo Xiang Wang. We also offer full OEM/ODM services for overseas distributors looking to bring authentic Chinese liquor to their markets."
     ]
   },
   "contact": {
     "eyebrow": "Contact",
     "title": "Start a conversation.",
-    "subtitle": "Tell us what you're building. We'll respond within one business day.",
+    "subtitle": "Tell us what you're looking for. We'll respond within one business day.",
     "person": "Contact Person",
     "personValue": "Liu Yadi",
     "email": "Email",
