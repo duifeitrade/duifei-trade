@@ -1,7 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { getDictionary, isLang, type Lang } from "@/dictionaries";
-import { products } from "./products-data";
+import { products } from "../products-data";
 
 export default async function ProductsPage({
   params,
