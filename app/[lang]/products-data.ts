@@ -82,6 +82,7 @@ export const products: Product[] = [
     descEn: "National invention patent, effective against acne bacteria, eczema and dermatitis.",
     specZh: "30ml",
     specEn: "30ml",
+    pddLink: "https://mobile.yangkeduo.com/goods2.html?goods_id=451437435267",
   },
   {
     image: "product-8.jpg",
@@ -92,6 +93,7 @@ export const products: Product[] = [
     descEn: "Wound disinfection and infection prevention for burns and minor cuts.",
     specZh: "30ml",
     specEn: "30ml",
+    pddLink: "https://mobile.yangkeduo.com/goods2.html?goods_id=491368357224",
   },
   {
     image: "product-9.jpg",
@@ -102,6 +104,7 @@ export const products: Product[] = [
     descEn: "Herbal formula, kills bacteria, fungi, viruses and mycoplasma, 99.9% efficacy.",
     specZh: "50ml",
     specEn: "50ml",
+    pddLink: "https://mobile.yangkeduo.com/goods2.html?goods_id=239478975423",
   },
   {
     image: "product-10.jpg",
