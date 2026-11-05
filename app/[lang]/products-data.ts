@@ -17,7 +17,7 @@ export type Product = {
 };
 
 export const categoryLabels: Record<"liquor" | "care", { zh: string; en: string }> = {
-  liquor: { zh: "酒类", en: "Alcoholic Beverages" },
+  liquor: { zh: "酒品", en: "Alcoholic Beverages" },
   care: { zh: "抗菌护理", en: "Antibacterial & Personal Care" },
 };
 

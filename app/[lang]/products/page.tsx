@@ -36,6 +36,10 @@ export default async function ProductsPage({
     </div>
   );
 
+  const navItems = categories
+    .map((cat) => ({ cat, items: products.filter((prod) => prod.category === cat) }))
+    .filter((g) => g.items.length > 0);
+
   return (
     <div className="min-h-screen flex flex-col bg-white text-gray-900">
       <Header lang={lang} dict={dict} />
@@ -50,14 +54,29 @@ export default async function ProductsPage({
           <p className="mt-6 text-base md:text-lg text-gray-500 max-w-xl leading-relaxed">
             {p.subtitle}
           </p>
+
+          {/* 分类导航 */}
+          <nav className="mt-10 flex flex-wrap gap-3">
+            {navItems.map(({ cat, items }) => {
+              const label = lang === "zh" ? categoryLabels[cat].zh : categoryLabels[cat].en;
+              return (
+                <a
+                  key={cat}
+                  href={`#${cat}`}
+                  className="px-4 py-2 text-sm border border-gray-200 rounded-full text-gray-600 hover:border-gray-900 hover:text-gray-900 transition-colors"
+                >
+                  {label}
+                  <span className="ml-2 text-gray-400">({items.length})</span>
+                </a>
+              );
+            })}
+          </nav>
         </section>
 
-        {categories.map((cat) => {
-          const items = products.filter((prod) => prod.category === cat);
-          if (items.length === 0) return null;
+        {navItems.map(({ cat, items }) => {
           const label = lang === "zh" ? categoryLabels[cat].zh : categoryLabels[cat].en;
           return (
-            <section key={cat} className="border-t border-gray-100">
+            <section key={cat} id={cat} className="border-t border-gray-100 scroll-mt-20">
               <div className="max-w-6xl mx-auto px-6 py-16">
                 <h2 className="text-xl font-normal text-gray-900 mb-8 flex items-center gap-3">
                   <span className="w-px h-5 bg-gray-300" />
