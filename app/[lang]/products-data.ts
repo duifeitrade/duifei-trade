@@ -14,6 +14,7 @@ export type Product = {
   descEn: string;
   specZh: string;
   specEn: string;
+  pddLink?: string;
 };
 
 export const categoryLabels: Record<"liquor" | "care", { zh: string; en: string }> = {
@@ -111,5 +112,6 @@ export const products: Product[] = [
     descEn: "Herbal roll-on for babies and pregnant moms, soothing and itch relief.",
     specZh: "10ml",
     specEn: "10ml",
+    pddLink: "https://mobile.yangkeduo.com/goods2.html?goods_id=251055106099",
   },
 ];

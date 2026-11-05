@@ -33,6 +33,17 @@ export default async function ProductsPage({
       <p className="mt-2 text-sm text-gray-500 leading-relaxed">
         {lang === "zh" ? prod.descZh : prod.descEn}
       </p>
+      {prod.pddLink && (
+        <a
+          href={prod.pddLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-3 inline-flex items-center gap-1 text-xs text-orange-600 hover:text-orange-700 border border-orange-200 hover:border-orange-400 rounded-full px-3 py-1 transition-colors"
+        >
+          {lang === "zh" ? "拼多多购买" : "Buy on Pinduoduo"}
+          <span aria-hidden>→</span>
+        </a>
+      )}
     </div>
   );
 
