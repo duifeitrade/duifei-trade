@@ -52,6 +52,7 @@ export const products: Product[] = [
     descEn: "Herbal infused liquor, food-medicine homologous ingredients.",
     specZh: "36%vol · 500ml",
     specEn: "36%vol · 500ml",
+    pddLink: "https://mobile.yangkeduo.com/goods2.html?goods_id=1008734627235",
   },
   {
     image: "product-4.jpg",
@@ -62,6 +63,7 @@ export const products: Product[] = [
     descEn: "Traditionally brewed original baijiu, case of 6.",
     specZh: "50%vol · 500ml",
     specEn: "50%vol · 500ml",
+    pddLink: "https://mobile.yangkeduo.com/goods2.html?goods_id=1008861275696",
   },
   {
     image: "product-5.jpg",
@@ -72,6 +74,7 @@ export const products: Product[] = [
     descEn: "Premium baijiu with blue gradient bottle, gift box.",
     specZh: "50%vol · 500ml",
     specEn: "50%vol · 500ml",
+    pddLink: "https://mobile.yangkeduo.com/goods2.html?goods_id=1015717439137",
   },
   {
     image: "product-7.jpg",
