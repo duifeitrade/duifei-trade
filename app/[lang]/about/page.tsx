@@ -13,7 +13,7 @@ export default async function AboutPage({
   const a = dict.about;
 
   const factoryImages = Array.from(
-    { length: 7 },
+    { length: 8 },
     (_, i) => `/images/factory-${i + 1}.jpg`
   );
 
